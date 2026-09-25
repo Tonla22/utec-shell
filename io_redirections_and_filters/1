@@ -1,0 +1,12 @@
+#!/bin/bash
+
+read -p "Nombre del archivo: " archivo
+
+touch "$archivo"
+
+echo "Escribí el contenido del archivo. Terminá con Ctrl+D:"
+cat > "$archivo"
+
+chmod +x "$archivo"
+
+echo "Archivo '$archivo' creado y con permisos de ejecución."
