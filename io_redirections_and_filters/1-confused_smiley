@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "\"(Ôo)\140"
+printf '"(Ôo)%b\n' '\140'
